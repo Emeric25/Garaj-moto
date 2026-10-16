@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif,Arial;
+    background: #111318;
+    color: #f5f5f5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 5%;
+}
+.logo{
+    color: #ff7138;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.navigation a {
+    color: #ff7138;
+    text-decoration: none;
+}
+.hero{
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px 0;
+}
+.hero h1 {
+    max-width: 700px; 
+    font-size: 48px;
+    text-shadow:2px 2px 12px red;
+}
+.hero p {
+    max-width: 550px;
+    line-height: 1.6;
+}
+.button{
+    display: inline-block;
+    margin-top :16px; 
+    padding: 15px 20px;
+    background:#ff7138 ;
+    color: #111318;
+    text-decoration: none;
+    border-radius: 6px;
+   
+}
+.motorcycles{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+}
+.motorcycle-list{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 30px;
+}
+.motorcycle-card{
+    flex: 1 1 240px;
+    padding: 28px;
+    background: #222630;
+    border-radius: 10px;
+}
+footer{
+ padding: 24px 5%;   
+ color:#b9bbc2 ;
+}
+.parinte-experiment{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+}
+.experiment{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.tipuri-rideri{
+    flex: 1 1 240px;
+    padding: 28px;
+    background: #222630;
+    border-radius: 10px;
+}
+/* Pentru incadrarea dimensiuni unui telefon  */
+@media (max-width:600px){
+    .header{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .hero h1{
+        font-size: 26px;
+    }
+    /* .motorcycle-list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 370px;
+        gap: 12px;
+    }
+    .motorcycle-card{
+        flex: 1 1 160px;
+        padding: 28px;
+        background: #222630;
+        border-radius: 10px;
+    }
+    .motorcycles{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .motorcycles h2{
+        padding: 15px;
+    } */
+}
