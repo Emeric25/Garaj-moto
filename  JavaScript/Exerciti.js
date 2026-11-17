@@ -111,18 +111,52 @@
 
 // Aici incerc un exercitiu in care sa arata un anumit text la diferite note si sa folosesc corect if ,else if si else
 
-// let nota = 4 ;5; 8; 9; 10
 
-function verificaNota (nota){
-    if(nota === 10 )
-        console.log ("Excelent")
-    else if (nota === 9)
-        console.log ("Foarte bine")
-    else if (nota === 7 && 8)
-        console.log ("Bine")
-    else if (nota === 5 && 5)
-        console.log ("Satisfacator")
-    else {console.log ("Insuficient")}      
-}
-for (let nota = 1; nota <= 10; nota ++)
-console.log(verificaNota(nota))
+// function verificaNota (nota){
+//     if(nota === 10 )
+//         return ( nota +" :" + "Excelent")
+//     else if (nota === 9)
+//         return (nota + " :" +"Foarte bine")
+//     else if (nota >= 7 &&  nota <= 8)
+//         return (nota + " :" +"Bine")
+//     else if (nota >= 5 && nota <= 6)
+//         return (nota + " :" +"Satisfacator")
+//     else {return (nota + " :" +"Insuficient")}      
+// }
+
+// for (let nota = 1; nota <= 10; nota ++)
+// console.log(verificaNota(nota))
+
+// Aici facem exercitiul de la curs ca sa il pot adauga unde trebuie defapt
+
+
+// function raportEveniment (nume, locuriTotale, locuriOcupate , pret ){
+//     let locuriLibere = locuriTotale - locuriOcupate;
+//     if (locuriLibere === 0){
+//         console.log( "Plin") 
+//     }
+//     else if(locuriLibere <= 5){
+//         console.log ("Ultimele locuri")
+//     }
+//     else{console.log( "Locuri libere")}
+    
+//     let total = 0;
+
+//     for (let i = 1; i <= 3 ; i ++){
+//         total = total + pret
+        
+//     }
+// }
+// console.log(raportEveniment("Bilete: " + i + ",total: " + total)) 
+
+
+
+ let pret = 12
+ let total = 0;
+
+    for (let total = 1; total <= 3 ; total ++){
+        total = total + pret
+        
+    }
+
+console.log( pret  + "eded" + total)
